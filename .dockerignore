@@ -1,4 +1,8 @@
 public/
 cache/
 logs/
-state/
+**/logs
+**/cache
+**/notebooks
+**/public
+**/state
