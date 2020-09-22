@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="THREDDS CSVS Catalog"
+         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0
+           http://www.unidata.ucar.edu/schemas/thredds/InvCatalog.1.0.6.xsd">
+
+  <service name="all" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="dap4" serviceType="DAP4" base="/thredds/dap4/" />
+    <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+    <service name="wcs" serviceType="WCS" base="/thredds/wcs/" />
+    <service name="wms" serviceType="WMS" base="/thredds/wms/" />
+    <service name="ncss" serviceType="NetcdfSubset" base="/thredds/ncss/" />
+  </service>
+
+  <service name="dap" base="" serviceType="compound">
+    <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+    <service name="dap4" serviceType="DAP4" base="/thredds/dap4/" />
+  </service>
+
+  <datasetRoot path="csvs" location="content/testdata/" />
+
+  <dataset name="ERA 5 30 ys avg t2m" ID="era5t2m30ysavg"
+           serviceName="all" urlPath="csvs/ERA5_AirTemp_30yrAv.nc" dataType="Grid"/>
+
+  <datasetRoot path="climate" location="/usr/local/data/" />
+
+  <dataset name="ERA 5 2m air temperature monthly" ID="era5t2monthly"
+           serviceName="all" urlPath="climate/monthly_2m_temperature.nc" dataType="Grid"/>
+
+</catalog>
