@@ -721,7 +721,7 @@
   <dataset name="ERA5_monthly_precipitation_1979_2019" ID="ERA5_monthly_precipitation_1979_2019"
            serviceName="all" urlPath="monthly/ERA5_monthly_precipitation_1979_2019.nc" dataType="Grid"/>
 
-  <datasetRoot path="30year" location="/usr/local/30year-yearly-data/30year/" />
+  <datasetRoot path="30year" location="/usr/local/monthly-yearly-data/30year/" />
 
   <dataset name="ERA5_30year_2mTemp" ID="ERA5_30year_2mTemp"
            serviceName="all" urlPath="30year/ERA5_30year_2mTemp.nc" dataType="Grid"/>
