@@ -25,18 +25,34 @@ for more information.
         <standardNames>
             <!-- Use this section to set defaults per standard name -->
             <!-- Units must come from the UDUNITS vocabulary -->
-            <standardName name="sea_water_potential_temperature" units="K">
-                <defaultColorScaleRange>268 308</defaultColorScaleRange>
+            <standardName name="surface_temperature" units="Celsius">
+                <defaultColorScaleRange>-50 50</defaultColorScaleRange>
+                <defaultPaletteName>red-yellow</defaultPaletteName>
             </standardName>
-            <standardName name="sea_water_temperature" units="K">
-                <defaultColorScaleRange>268 308</defaultColorScaleRange>
+            <standardName name="relative_humidity" units="%">
+                <defaultColorScaleRange>0 100</defaultColorScaleRange>
+                <defaultPaletteName>green-purple</defaultPaletteName>
             </standardName>
-            <standardName name="mass_concentration_of_chlorophyll_in_sea_water" units="kg m-3">
-                <logScaling>true</logScaling>
+            <standardName name="air_pressure_at_mean_sea_level" units="Pa">
+                <defaultPaletteName>green-purple</defaultPaletteName>
+                <defaultColorScaleRange>96500 104000</defaultColorScaleRange>
             </standardName>
-            <!-- TODO: how about allowing "*fraction" to map to 0:1? -->
-            <!-- TODO: how about allowing multiple standard names to map to the same settings,
-                 either through a glob expression or through a list? -->
+            <standardName name="soil_temperature" units="Celsius">
+                <defaultPaletteName>red-yellow</defaultPaletteName>
+                <defaultColorScaleRange>-50 50</defaultColorScaleRange>
+            </standardName>
+            <standardName name="volume_fraction_of_condensed_water_in_soil" units="m**3 m**-3">
+                <defaultPaletteName>green-purple</defaultPaletteName>
+                <defaultColorScaleRange>0 1</defaultColorScaleRange>
+            </standardName>
+            <standardName name="surface_net_downward_shortwave_flux" units="J m**-2">
+                <defaultPaletteName>red-yellow</defaultPaletteName>
+                <defaultColorScaleRange>25860 1291000</defaultColorScaleRange>
+            </standardName>
+            <standardName name="convective_precipitation_rate" units="mm/day">
+                <defaultPaletteName>blu-yellow</defaultPaletteName>
+                <defaultColorScaleRange>0 1000</defaultColorScaleRange>
+            </standardName>
         </standardNames>
     </global>
 
