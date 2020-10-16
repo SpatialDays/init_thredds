@@ -53,6 +53,10 @@ for more information.
                 <defaultPaletteName>blu-yellow</defaultPaletteName>
                 <defaultColorScaleRange>0 1000</defaultColorScaleRange>
             </standardName>
+            <standardName name="precipitation_flux" units="mm/month">
+                <defaultPaletteName>blu-yellow</defaultPaletteName>
+                <defaultColorScaleRange>0 1000</defaultColorScaleRange>
+            </standardName>
         </standardNames>
     </global>
 
