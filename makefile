@@ -1,4 +1,4 @@
-IMAGENAME = davidedelerma/init-thredds:${TAG}
+IMAGENAME = satapps/init-thredds:${TAG}
 
 build:
 	docker build -t $(IMAGENAME) .
