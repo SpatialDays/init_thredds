@@ -1076,4 +1076,14 @@
            serviceName="all" urlPath="TRMM/TRMM_3B42.2012.daily_V7.nc" dataType="Grid"/>
   <dataset name="TRMM_3B42.2013.daily_V7" ID="TRMM_3B42.2013.daily_V7"
            serviceName="all" urlPath="TRMM/TRMM_3B42.2013.daily_V7.nc" dataType="Grid"/>
+
+  <datasetScan name="NCEP" ID="ncepData"
+    path="ncep" location="/usr/local/ncep/">
+  <metadata inherited="true">
+    <serviceName>all</serviceName>
+  </metadata>
+
+</datasetScan>
+
+
 </catalog>
