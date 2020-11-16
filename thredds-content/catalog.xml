@@ -1091,5 +1091,11 @@
     </metadata>
   </datasetScan>
 
+  <datasetScan name="CRU" ID="cruData"
+    path="cru" location="/usr/local/cru/">
+    <metadata inherited="true">
+      <serviceName>all</serviceName>
+    </metadata>
+  </datasetScan>
 
 </catalog>
