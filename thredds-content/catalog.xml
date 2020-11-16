@@ -1079,11 +1079,17 @@
 
   <datasetScan name="NCEP" ID="ncepData"
     path="ncep" location="/usr/local/ncep/">
-  <metadata inherited="true">
-    <serviceName>all</serviceName>
-  </metadata>
+    <metadata inherited="true">
+      <serviceName>all</serviceName>
+    </metadata>
+  </datasetScan>
 
-</datasetScan>
+  <datasetScan name="GPCP" ID="gpcpData"
+    path="gpcp" location="/usr/local/gpcp/">
+    <metadata inherited="true">
+      <serviceName>all</serviceName>
+    </metadata>
+  </datasetScan>
 
 
 </catalog>
