@@ -1098,4 +1098,11 @@
     </metadata>
   </datasetScan>
 
+  <datasetScan name="CMAP" ID="cmapData"
+    path="cru" location="/usr/local/cmap/">
+    <metadata inherited="true">
+      <serviceName>all</serviceName>
+    </metadata>
+  </datasetScan>
+
 </catalog>
