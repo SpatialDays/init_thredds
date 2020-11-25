@@ -1042,40 +1042,12 @@
   <dataset name="ERA5-Land_30year_TotalPrecip" ID="ERA5-Land_30year_TotalPrecip"
            serviceName="all" urlPath="ERA5-Land_30year/ERA5-Land_30year_TotalPrecip.nc" dataType="Grid"/>
 
-  <datasetRoot path="TRMM" location="/usr/local/trmm/" />
-
-  <dataset name="TRMM_3B42.1998.daily_V7" ID="TRMM_3B42.1998.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.1998.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.1999.daily_V7" ID="RMM_3B42.1999.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.1999.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2000.daily_V7" ID="TRMM_3B42.2000.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2000.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2001.daily_V7" ID="TRMM_3B42.2001.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2001.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2002.daily_V7" ID="TRMM_3B42.2002.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2002.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2003.daily_V7" ID="TRMM_3B42.2003.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2003.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2004.daily_V7" ID="TRMM_3B42.2004.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2004.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2005.daily_V7" ID="TRMM_3B42.2005.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2005.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2006.daily_V7" ID="TRMM_3B42.2006.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2006.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2007.daily_V7" ID="TRMM_3B42.2007.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2007.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2008.daily_V7" ID="TRMM_3B42.2008.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2008.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2009.daily_V7" ID="TRMM_3B42.2009.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2009.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2010.daily_V7" ID="TRMM_3B42.2010.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2010.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2011.daily_V7" ID="TRMM_3B42.2011.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2011.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2012.daily_V7" ID="TRMM_3B42.2012.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2012.daily_V7.nc" dataType="Grid"/>
-  <dataset name="TRMM_3B42.2013.daily_V7" ID="TRMM_3B42.2013.daily_V7"
-           serviceName="all" urlPath="TRMM/TRMM_3B42.2013.daily_V7.nc" dataType="Grid"/>
+  <datasetScan name="TRMM" ID="trmmData"
+    path="TRMM" location="/usr/local/trmm/">
+    <metadata inherited="true">
+      <serviceName>all</serviceName>
+    </metadata>
+  </datasetScan>
 
   <datasetScan name="NCEP" ID="ncepData"
     path="ncep" location="/usr/local/ncep/">
