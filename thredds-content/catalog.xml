@@ -1077,4 +1077,11 @@
     </metadata>
   </datasetScan>
 
+  <datasetScan name="ERA5_daily_mean_SST" ID="ERA5_daily_mean_SST"
+    path="ERA5_daily_mean_SST" location="/usr/local/daily-2-data/ERA5_daily_mean_SST/">
+    <metadata inherited="true">
+      <serviceName>all</serviceName>
+    </metadata>
+  </datasetScan>
+
 </catalog>
