@@ -1033,7 +1033,7 @@
   <dataset name="ERA5-Land_monthly_mean_RH_1981_2019" ID="ERA5-Land_monthly_mean_RH_1981_2019"
            serviceName="all" urlPath="ERA5-Land_monthly_mean_RH_1981_2019.nc" dataType="Grid"/>
   <dataset name="ERA5-Land_monthly_mean_TotalWind_2001_2019" ID="ERA5-Land_monthly_mean_TotalWind_2001_2019"
-           serviceName="all" urlPath="EERA5-Land_monthly_mean_TotalWind_2001_2019.nc" dataType="Grid"/>
+           serviceName="all" urlPath="ERA5-Land_monthly_mean_TotalWind_2001_2019.nc" dataType="Grid"/>
   <dataset name="ERA5-Land_monthly_total_precipitation_1981_2019" ID="ERA5-Land_monthly_total_precipitation_1981_2019"
            serviceName="all" urlPath="ERA5-Land_monthly_total_precipitation_1981_2019.nc" dataType="Grid"/>
 
