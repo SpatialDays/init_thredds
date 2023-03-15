@@ -20,9 +20,9 @@
     <service name="dap4" serviceType="DAP4" base="/thredds/dap4/" />
   </service>
 
-  <datasetRoot path="ERA5_daily_mean_2mTemp" location="/usr/local/daily-1-data/" />
+  <datasetRoot path="ERA5_daily_mean_2mTemp" location="/usr/local/daily-1-data/ERA5_daily_mean_2mTemp/" />
 
-  <dataset name="ERA5_daily_mean_2mTemp_1979" ID="ERA5_daily_mean_2mTemp_1979"
+ <dataset name="ERA5_daily_mean_2mTemp_1979" ID="ERA5_daily_mean_2mTemp_1979"
            serviceName="all" urlPath="ERA5_daily_mean_2mTemp/ERA5_daily_mean_2mTemp_1979.nc" dataType="Grid"/>
   <dataset name="ERA5_daily_mean_2mTemp_1980" ID="ERA5_daily_mean_2mTemp_1980"
            serviceName="all" urlPath="ERA5_daily_mean_2mTemp/ERA5_daily_mean_2mTemp_1980.nc" dataType="Grid"/>
@@ -105,7 +105,7 @@
   <dataset name="ERA5_daily_mean_2mTemp_2019" ID="ERA5_daily_mean_2mTemp_2019"
            serviceName="all" urlPath="ERA5_daily_mean_2mTemp/ERA5_daily_mean_2mTemp_2019.nc" dataType="Grid"/>
 
-  <datasetRoot path="ERA5_daily_mean_RH" location="/usr/local/daily-1-data/" />
+  <datasetRoot path="ERA5_daily_mean_RH" location="/usr/local/daily-1-data/ERA5_daily_mean_RH/" />
 
   <dataset name="ERA5_daily_mean_RH_1979" ID="ERA5_daily_mean_RH_1979"
            serviceName="all" urlPath="ERA5_daily_mean_RH/ERA5_daily_mean_RH_1979.nc" dataType="Grid"/>
@@ -190,7 +190,7 @@
   <dataset name="ERA5_daily_mean_RH_2019" ID="ERA5_daily_mean_RH_2019"
            serviceName="all" urlPath="ERA5_daily_mean_RH/ERA5_daily_mean_RH_2019.nc" dataType="Grid"/>
 
-  <datasetRoot path="ERA5_daily_mean_TotalWind" location="/usr/local/daily-1-data/" />
+  <datasetRoot path="ERA5_daily_mean_TotalWind" location="/usr/local/daily-1-data/ERA5_daily_mean_TotalWind/" />
 
   <dataset name="ERA5_daily_mean_TotalWind_1979" ID="ERA5_daily_mean_TotalWind_1979"
            serviceName="all" urlPath="ERA5_daily_mean_TotalWind/ERA5_daily_mean_TotalWind_1979.nc" dataType="Grid"/>
@@ -275,7 +275,8 @@
   <dataset name="ERA5_daily_mean_TotalWind_2019" ID="ERA5_daily_mean_TotalWind_2019"
            serviceName="all" urlPath="ERA5_daily_mean_TotalWind/ERA5_daily_mean_TotalWind_2019.nc" dataType="Grid"/>
 
-  <datasetRoot path="ERA5_daily_mean_mslp" location="/usr/local/daily-2-data/" />
+
+  <datasetRoot path="ERA5_daily_mean_mslp" location="/usr/local/daily-2-data/ERA5_daily_mean_mslp/" />
 
   <dataset name="ERA5_daily_mean_mslp_1979" ID="ERA5_daily_mean_mslp_1979"
            serviceName="all" urlPath="ERA5_daily_mean_mslp/ERA5_daily_mean_mslp_1979.nc" dataType="Grid"/>
@@ -360,7 +361,7 @@
   <dataset name="ERA5_daily_mean_mslp_2019" ID="ERA5_daily_mean_mslp_2019"
            serviceName="all" urlPath="ERA5_daily_mean_mslp/ERA5_daily_mean_mslp_2019.nc" dataType="Grid"/>
 
-  <datasetRoot path="ERA5_daily_mean_soil_temp_L1" location="/usr/local/daily-2-data/" />
+  <datasetRoot path="ERA5_daily_mean_soil_temp_L1" location="/usr/local/daily-2-data/ERA5_daily_mean_soil_temp_L1/" />
 
   <dataset name="ERA5_daily_mean_soil_temp_L1_1979" ID="ERA5_daily_mean_soil_temp_L1_1979"
            serviceName="all" urlPath="ERA5_daily_mean_soil_temp_L1/ERA5_daily_mean_soil_temp_L1_1979.nc" dataType="Grid"/>
@@ -445,7 +446,7 @@
   <dataset name="ERA5_daily_mean_soil_temp_L1_2019" ID="ERA5_daily_mean_soil_temp_L1_2019"
            serviceName="all" urlPath="ERA5_daily_mean_soil_temp_L1/ERA5_daily_mean_soil_temp_L1_2019.nc" dataType="Grid"/>
 
-  <datasetRoot path="ERA5_daily_mean_soil_water_L1" location="/usr/local/daily-3-data/" />
+  <datasetRoot path="ERA5_daily_mean_soil_water_L1" location="/usr/local/daily-3-data/ERA5_daily_mean_soil_water_L1/" />
 
   <dataset name="ERA5_daily_mean_soil_water_L1_1979" ID="ERA5_daily_mean_soil_water_L1_1979"
            serviceName="all" urlPath="ERA5_daily_mean_soil_water_L1/ERA5_daily_mean_soil_water_L1_1979.nc" dataType="Grid"/>
@@ -530,7 +531,7 @@
   <dataset name="ERA5_daily_mean_soil_water_L1_2019" ID="ERA5_daily_mean_soil_water_L1_2019"
            serviceName="all" urlPath="ERA5_daily_mean_soil_water_L1/ERA5_daily_mean_soil_water_L1_2019.nc" dataType="Grid"/>
 
-  <datasetRoot path="ERA5_daily_mean_sol_rad" location="/usr/local/daily-3-data/" />
+  <datasetRoot path="ERA5_daily_mean_sol_rad" location="/usr/local/daily-3-data/ERA5_daily_mean_sol_rad/" />
 
   <dataset name="ERA5_daily_mean_sol_rad_1979" ID="ERA5_daily_mean_sol_rad_1979"
            serviceName="all" urlPath="ERA5_daily_mean_sol_rad/ERA5_daily_mean_sol_rad_1979.nc" dataType="Grid"/>
@@ -615,7 +616,7 @@
   <dataset name="ERA5_daily_mean_sol_rad_2019" ID="ERA5_daily_mean_sol_rad_2019"
            serviceName="all" urlPath="ERA5_daily_mean_sol_rad/ERA5_daily_mean_sol_rad_2019.nc" dataType="Grid"/>
 
-  <datasetRoot path="ERA5_daily_total_precipitation" location="/usr/local/daily-3-data/" />
+  <datasetRoot path="ERA5_daily_total_precipitation" location="/usr/local/daily-3-data/ERA5_daily_total_precipitation/" />
 
   <dataset name="ERA5_daily_total_precipitation_1979" ID="ERA5_daily_total_precipitation_1979"
            serviceName="all" urlPath="ERA5_daily_total_precipitation/ERA5_daily_total_precipitation_1979.nc" dataType="Grid"/>
@@ -742,7 +743,7 @@
   <dataset name="ERA5_30year_sol_rad" ID="ERA5_30year_sol_rad"
            serviceName="all" urlPath="30year/ERA5_30year_sol_rad.nc" dataType="Grid"/>
 
-  <datasetRoot path="ERA5-Land_daily_mean_2mTemp" location="/usr/local/era5-land/daily/" />
+  <datasetRoot path="ERA5-Land_daily_mean_2mTemp" location="/usr/local/era5-land/daily/ERA5-Land_daily_mean_2mTemp/" />
 
   <dataset name="ERA5-Land_daily_mean_2mTemp_1981" ID="ERA5-Land_daily_mean_2mTemp_1981"
            serviceName="all" urlPath="ERA5-Land_daily_mean_2mTemp/ERA5-Land_daily_mean_2mTemp_1981.nc" dataType="Grid"/>
@@ -823,7 +824,7 @@
   <dataset name="ERA5-Land_daily_mean_2mTemp_2019" ID="ERA5-Land_daily_mean_2mTemp_2019"
            serviceName="all" urlPath="ERA5-Land_daily_mean_2mTemp/ERA5-Land_daily_mean_2mTemp_2019.nc" dataType="Grid"/>
 
-  <datasetRoot path="ERA5-Land_daily_mean_RH" location="/usr/local/era5-land/daily/" />
+  <datasetRoot path="ERA5-Land_daily_mean_RH" location="/usr/local/era5-land/daily/ERA5-Land_daily_mean_RH/" />
 
   <dataset name="ERA5-Land_daily_mean_RH_1981" ID="ERA5-Land_daily_mean_RH_1981"
            serviceName="all" urlPath="ERA5-Land_daily_mean_RH/ERA5-Land_daily_mean_RH_1981.nc" dataType="Grid"/>
@@ -904,7 +905,7 @@
   <dataset name="ERA5-Land_daily_mean_RH_2019" ID="ERA5-Land_daily_mean_RH_2019"
            serviceName="all" urlPath="ERA5-Land_daily_mean_RH/ERA5-Land_daily_mean_RH_2019.nc" dataType="Grid"/>
 
-  <datasetRoot path="ERA5-Land_daily_mean_TotalWind" location="/usr/local/era5-land/daily/" />
+  <datasetRoot path="ERA5-Land_daily_mean_TotalWind" location="/usr/local/era5-land/daily/ERA5-Land_daily_mean_TotalWind/" />
 
   <dataset name="ERA5-Land_daily_mean_TotalWind_2001" ID="ERA5-Land_daily_mean_TotalWind_2001"
            serviceName="all" urlPath="ERA5-Land_daily_mean_TotalWind/ERA5-Land_daily_mean_TotalWind_2001.nc" dataType="Grid"/>
@@ -945,7 +946,7 @@
   <dataset name="ERA5-Land_daily_mean_TotalWind_2019" ID="ERA5-Land_daily_mean_TotalWind_2019"
            serviceName="all" urlPath="ERA5-Land_daily_mean_TotalWind/ERA5-Land_daily_mean_TotalWind_2019.nc" dataType="Grid"/>
 
-  <datasetRoot path="ERA5-Land_daily_total_precipitation" location="/usr/local/era5-land/daily/" />
+  <datasetRoot path="ERA5-Land_daily_total_precipitation" location="/usr/local/era5-land/daily/ERA5-Land_daily_total_precipitation/" />
 
   <dataset name="ERA5-Land_daily_total_precipitation_1981" ID="ERA5-Land_daily_total_precipitation_1981"
            serviceName="all" urlPath="ERA5-Land_daily_total_precipitation/ERA5-Land_daily_total_precipitation_1981.nc" dataType="Grid"/>
@@ -1029,13 +1030,13 @@
   <datasetRoot path="ERA5-Land_monthly" location="/usr/local/era5-land/monthly/" />
 
   <dataset name="ERA5-Land_monthly_mean_2mTemp_1981_2019" ID="ERA5-Land_monthly_mean_2mTemp_1981_2019"
-           serviceName="all" urlPath="ERA5-Land_monthly_mean_2mTemp_1981_2019.nc" dataType="Grid"/>
+           serviceName="all" urlPath="monthly/ERA5-Land_monthly_mean_2mTemp_1981_2019.nc" dataType="Grid"/>
   <dataset name="ERA5-Land_monthly_mean_RH_1981_2019" ID="ERA5-Land_monthly_mean_RH_1981_2019"
-           serviceName="all" urlPath="ERA5-Land_monthly_mean_RH_1981_2019.nc" dataType="Grid"/>
+           serviceName="all" urlPath="monthly/ERA5-Land_monthly_mean_RH_1981_2019.nc" dataType="Grid"/>
   <dataset name="ERA5-Land_monthly_mean_TotalWind_2001_2019" ID="ERA5-Land_monthly_mean_TotalWind_2001_2019"
-           serviceName="all" urlPath="ERA5-Land_monthly_mean_TotalWind_2001_2019.nc" dataType="Grid"/>
+           serviceName="all" urlPath="monthly/ERA5-Land_monthly_mean_TotalWind_2001_2019.nc" dataType="Grid"/>
   <dataset name="ERA5-Land_monthly_total_precipitation_1981_2019" ID="ERA5-Land_monthly_total_precipitation_1981_2019"
-           serviceName="all" urlPath="ERA5-Land_monthly_total_precipitation_1981_2019.nc" dataType="Grid"/>
+           serviceName="all" urlPath="monthly/ERA5-Land_monthly_total_precipitation_1981_2019.nc" dataType="Grid"/> 
 
   <datasetRoot path="ERA5-Land_30year" location="/usr/local/era5-land/30year/" />
 
